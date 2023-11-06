@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gr{
+    width: 1130px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.chart__1{
+    width: 590px;
+    height: 400px;
+    margin-top: 50px;
+}
+.gr__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+.gr__wrapper div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gr__wrapper div img{
+    cursor: pointer;
+}
+.gr__wrapper div h2{
+    margin-top: 8px;
+    margin-bottom: 10px;
+   
+}
+.chart__card{
+    width: 450px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(199, 132, 7);
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__content h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.card__content p{
+    margin-bottom: 10px;
+    color: rgb(48, 47, 47);
+}
+.card__content h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+.chart__card2{
+    width: 450px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(5, 127, 197);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#chartdiv {
+    width: 250px;
+    height: 200px;
+  }
+  .p1{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+   background-color:  rgb(199, 132, 7);
+   /* background-color: black; */
+   bottom: -9px ;
+   z-index: 100;
+  }
+  .card__chart{
+    position: relative;
+  }
+  #myChart{
+    height: 150px;
+  }
